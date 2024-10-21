@@ -1,0 +1,13 @@
+{
+  "name": "AR-ChatBot",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "description": "This is a Ai ChatBot",
+  "icons": {
+    "32": "icon.png",
+    "64": "icon.png"
+  },
+  "action": {
+    "default_popup": "index.html"
+  }
+}
