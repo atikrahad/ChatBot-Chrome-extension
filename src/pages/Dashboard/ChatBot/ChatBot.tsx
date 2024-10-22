@@ -39,7 +39,7 @@ const ChatBot: React.FC = () => {
   };
 
   return (
-    <div className="flex  flex-col h-[500px] w-[300px]">
+    <div className="flex  flex-col h-[500px] w-[400px]">
       {/* Chat Header */}
       <header className="flex items-center justify-between bg-blue-600 p-4 text-white">
         <h2 className="text-lg font-semibold">Chat with Bot</h2>

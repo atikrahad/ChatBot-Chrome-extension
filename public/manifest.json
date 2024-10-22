@@ -8,6 +8,10 @@
     "64": "icon.png"
   },
   "action": {
-    "default_popup": "index.html"
+    "default_title": "Open Movable popup"
+  },
+  "permissions": ["activeTab", "windows"],
+  "background": {
+    "service_worker": "background.js"
   }
 }
