@@ -39,7 +39,7 @@ const ChatBot: React.FC = () => {
   };
 
   return (
-    <div className="flex  flex-col h-[400px] w-[300px]">
+    <div className="flex  flex-col h-[500px] w-[300px]">
       {/* Chat Header */}
       <header className="flex items-center justify-between bg-blue-600 p-4 text-white">
         <h2 className="text-lg font-semibold">Chat with Bot</h2>
@@ -77,7 +77,10 @@ const ChatBot: React.FC = () => {
       </div>
 
       {/* Chat Input */}
-      <footer className="flex p-4 bg-white border-t">
+      <footer
+        onSubmit={(e) => e.preventDefault()}
+        className="flex p-4 bg-white border-t"
+      >
         <input
           type="text"
           value={inputValue}
